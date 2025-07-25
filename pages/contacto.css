@@ -11,11 +11,6 @@ body{
   height: 10vh;
   margin: 16px;
 }
-@media (min-width: 960px){
-  .contenedor-header{
-    height: 15vh;
-  }
-}
 .contenedor-form{
   height: 90vh;
 }

@@ -1,44 +1,38 @@
 function agregarFormulario(container) {
   const nuevoDiv = document.createElement("div");
+  nuevoDiv.classList.add("contenedor-por-defecto")
 
   nuevoDiv.innerHTML = `
-  <div class="section formulario-contacto">
-    <div class="contenedor-general">
-      <div class="columns is-multiline is-vcentered formulario">
+    <div class="formulario-contacto">
+      <div class="fila-formulario">
         
-        <div class="column is-12-mobile is-4-desktop">
-          <h2 class="title is-3 escribime-title">Escribime</h2>
+        <div class="columna escribime">
+          <h2 class="escribime-title">Escribime</h2>
         </div>
 
-        <div class="column is-12-mobile is-8-desktop contenedor-formulario">
-          <form id="formulario-principal">
+        <div class="columna formulario">
+          <form id="formulario-principal" class="formulario-principal">
             <div class="form-row-double">
-              <div class="field">
-                <label class="label" for="input-nombre">Nombre</label>
-                <div class="control">
-                  <input class="input" name="nombre" id="input-nombre" type="text" placeholder="Tu nombre" required>
-                </div>
+              <div class="campo">
+                <label for="input-nombre">Nombre</label>
+                <input name="nombre" id="input-nombre" type="text" placeholder="Tu nombre" required>
               </div>
 
-              <div class="field">
-                <label class="label" for="input-email">Email</label>
-                <div class="control">
-                  <input class="input" name="email" id="input-email" type="email" placeholder="tu@mail.com" required>
-                </div>
+              <div class="campo">
+                <label for="input-email">Email</label>
+                <input name="email" id="input-email" type="email" placeholder="tu@mail.com" required>
               </div>
             </div>
 
-            <div class="field">
-              <label class="label" for="input-mensaje">Mensaje</label>
-              <div class="control">
-                <textarea class="textarea" name="mensaje" id="input-mensaje" placeholder="Tu mensaje..."></textarea>
-              </div>
+            <div class="campo">
+              <label for="input-mensaje">Mensaje</label>
+              <textarea name="mensaje" id="input-mensaje" placeholder="Tu mensaje..."></textarea>
             </div>
 
-            <div class="field has-text-left">
-              <button type="submit" class="button is-primary is-rounded">
+            <div class="campo boton">
+              <button type="submit">
                 <span>Enviar</span>
-                <span class="icon">
+                <span class="icono">
                   <i class="fas fa-paper-plane"></i>
                 </span>
               </button>
@@ -46,9 +40,8 @@ function agregarFormulario(container) {
           </form>
         </div>
       </div>
-    </div>
-  </div>`
-  ;
+  </div>
+  `;
   container.appendChild(nuevoDiv);
 }
 function activarFormulario() { 
