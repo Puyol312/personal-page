@@ -1,0 +1,103 @@
+.contenedor-general{
+  height: 100%;
+}
+.formulario-contacto {
+  background-color: #13171C;
+  padding: 2rem 1.5rem;
+  border-top: 1px solid #2a2e33;
+  border-bottom: 1px solid #2a2e33;
+  height: 100%;
+}
+.columns.formulario {
+  height: 100%;
+  min-height: 400px;
+}
+.columns.formulario > .column {
+  display: flex;
+  align-items: center;
+}
+@media(min-width:769px){
+  .columns.formulario {
+    min-height: 500px;
+  }
+}
+.escribime-title {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  text-align: right;
+  font-size: 2rem;
+}
+@media(min-width:769px){
+  .escribime-title{
+    font-size: 2.5rem
+  }
+}
+@media(min-width:1024px){
+  .escribime-title{
+    font-size: 3rem
+  }
+}
+.columns.is-vcentered.formulario{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contenedor-formulario{
+  max-width: 660px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#formulario-principal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+input.input,
+textarea.textarea {
+  background-color: #1d2228;
+  border: 1px solid #3b4048;
+  color: #ffffff;
+  border-radius: 6px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+input.input:focus,
+textarea.textarea:focus {
+  border-color: #00d1b2;
+  box-shadow: 0 0 0 0.2em rgba(0, 209, 178, 0.25);
+}
+.label {
+  color: #cccccc;
+  font-weight: 500;
+}
+.form-row-double {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .form-row-double {
+    flex-direction: row;
+  }
+  .form-row-double .field {
+    flex: 1;
+  }
+}
+.button.is-primary.is-rounded {
+  border-radius: 999px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  background-color: #00d1b2;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
+  min-width: 200px;
+}
+.button.is-primary.is-rounded:hover {
+  background-color: #00b89c;
+  transform: translateY(-1px);
+}
+.button.is-primary.is-rounded .icon {
+  margin-left: 0.5rem;
+}

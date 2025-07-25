@@ -1,0 +1,58 @@
+.portfolio-card {
+  border-radius: 12px;
+  background: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 28px 28px 32px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 360px;
+}
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+.portfolio-img {
+  object-fit: cover;
+  height: 255px;
+  width: 100%;
+  border-radius: 8px;
+}
+.portfolio-card-content {
+  padding: 20px 0 0 0;
+}
+.portfolio-card-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+.portfolio-card-text {
+  margin-top: 10px;
+  color: #ddd;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.portfolio-card-link {
+  color: #00d1b2;
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.portfolio-card-link:hover {
+  text-decoration: underline;
+}
+.ver-mas-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00d1b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ver-mas-btn:hover {
+  background-color: #009f8a;
+}

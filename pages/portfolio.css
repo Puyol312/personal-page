@@ -1,0 +1,102 @@
+/* Objects */
+.titulo-principal{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  margin: 5px;
+}
+@media (min-width: 960px){
+  .titulo-principal{
+    font-size: 78px;
+  }
+}
+.titulo-secundario{
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 131%;
+  text-align: center;
+}
+.parrafo{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+/* HTML */
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.portfolio-home{
+  height: 100vh;
+  background-color: #13171C;
+}
+.portfolio-home__contenedor-header{
+  padding-top: 10px;
+  height: 10vh;
+  margin: 16px;
+}
+@media (min-width: 960px){
+  .portfolio-home__contenedor-header{
+    height: 15vh;
+  }
+}
+.portfolio-home__contenedor-caratula{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  height: 90vh;
+}
+@media (min-width: 960px){
+  .portfolio-home__contenedor-caratula{
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+  }
+}
+.portfolio-home__contenedor-caratula__texto__palabras > h1{
+  color: #00ADB5;
+}
+@media (min-width: 960px){
+  .portfolio-home__contenedor-caratula__texto__palabras > h1{
+    display: inline;
+  }
+}
+.portfolio-home__contenedor-caratula__imagen > img {
+  width: clamp(180px, 25vw, 400px);
+  height: auto;
+}
+.portfolio-servicios{
+  background-image: url("../assets/pictures/doodle\ items.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.porfolio-servicios__contenedor {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr;
+  gap: 44px; 
+  justify-items: center;
+}
+@media (min-width: 768px) {
+  .porfolio-servicios__contenedor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .porfolio-servicios__contenedor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.footer{
+  background-color: #0F1113;
+}

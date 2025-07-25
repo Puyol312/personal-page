@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.contacto-home{
+  height: 100vh;
+  background-color: #13171C;
+}
+.contenedor-header{
+  height: 10vh;
+  margin: 16px;
+}
+@media (min-width: 960px){
+  .contenedor-header{
+    height: 15vh;
+  }
+}
+.contenedor-form{
+  height: 90vh;
+}
+@media(min-width:960px){
+  .contenedor-form{
+    height: 80vh;
+  }
+}
+.footer{
+  background-color: #0F1113;
+}
