@@ -27,9 +27,10 @@ body{
   margin: 0;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  background-color: #13171C;
 }
 .portfolio-home{
-  height: 100vh;
+  min-height: 100vh;
   background-color: #13171C;
 }
 .portfolio-home__contenedor-header{

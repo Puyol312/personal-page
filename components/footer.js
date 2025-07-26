@@ -31,13 +31,13 @@ function agregarFooter(container) {
 
         <!-- Redes sociales -->
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/tu_usuario" target="_blank" class="social-link">
+          <a href="https://www.linkedin.com/in/caio-renato-puyol-leguiza-353753298" target="_blank" class="social-link">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/tu_usuario" target="_blank" class="social-link">
+          <a href="https://github.com/Puyol312" target="_blank" class="social-link">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/tu_usuario" target="_blank" class="social-link">
+          <a href="https://www.instagram.com/caio_puyol/" target="_blank" class="social-link">
             <i class="fab fa-instagram"></i>
           </a>
         </div>
