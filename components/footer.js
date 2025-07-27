@@ -10,19 +10,19 @@ function agregarFooter(container) {
         <!-- Navegación principal -->
         <div class="columns is-mobile is-multiline is-variable is-1 menu-footer">
           <div class="column is-12-mobile is-one-third-desktop has-text-centered">
-            <a href="/index.html">
+            <a href="./index.html">
               <span class="icon"><i class="fas fa-home"></i></span>
               <span>Home</span>
             </a>
           </div>
           <div class="column is-12-mobile is-one-third-desktop has-text-centered">
-            <a href="/servicios.html">
+            <a href="./servicios.html">
               <span class="icon"><i class="fas fa-briefcase"></i></span>
               <span>Servicios</span>
             </a>
           </div>
           <div class="column is-12-mobile is-one-third-desktop has-text-centered">
-            <a href="/contacto.html">
+            <a href="./contacto.html">
               <span class="icon"><i class="fas fa-envelope"></i></span>
               <span>Contacto</span>
             </a>
