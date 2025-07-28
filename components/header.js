@@ -31,9 +31,9 @@ function agregarHeader(container) {
       <div class="menu-content box">
         <button id="close-header-menu" class="delete is-large" aria-label="close"></button>
         <ul>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./servicios.html">Servicios</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </div>
     </div>
