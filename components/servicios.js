@@ -7,7 +7,8 @@ function getWorks() {
         return {
           title: item.fields.titulo,
           description: item.fields.descripcin,
-          image: imageAsset ? imageAsset.fields.file.url : null
+          image: imageAsset ? imageAsset.fields.file.url : null,
+          url: item.fields.url
         }
       });
       return fieldsCollections;
