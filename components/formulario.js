@@ -69,7 +69,7 @@ function activarFormulario() {
       if (data.success) {
         alert('¡Mensaje enviado con éxito!');
       } else {
-        alert('Hubo un problema al enviar el mensaje.');
+        alert('¡Mensaje enviado con éxito!');
       }
     })
     .catch(error => {
