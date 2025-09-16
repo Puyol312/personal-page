@@ -46,6 +46,7 @@ function agregarFormulario(container) {
 }
 function activarFormulario() { 
   const idFormulario = "formulario-principal";
+  const email = "caiopuyolleguiza@gmail.com";
   const formEl = document.getElementById(idFormulario);
   if (!formEl) { 
     console.error(`No se encontró el contenedor con el selector "${idFormulario}"`);
@@ -60,8 +61,8 @@ function activarFormulario() {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
-        to: jsonFormData.email,
-        message: jsonFormData.mensaje
+        to: email,
+        message: `From:${jsonFormData.email} \n Mensaje: ${jsonFormData.mensaje}`
       })
     })
     .then(response => response.json())
@@ -71,6 +72,8 @@ function activarFormulario() {
       } else {
         alert('¡Mensaje enviado con éxito!');
       }
+      
+      formEl.reset();
     })
     .catch(error => {
       alert('Error en la conexión. Intenta nuevamente.');
