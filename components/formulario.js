@@ -62,7 +62,7 @@ function activarFormulario() {
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
         to: email,
-        message: `From:${jsonFormData.email} \n Mensaje: ${jsonFormData.mensaje}`
+        message: `Name:${jsonFormData.nombre} \n\n From: ${jsonFormData.email} \n\n Mensaje: ${jsonFormData.mensaje}`
       })
     })
     .then(response => response.json())
